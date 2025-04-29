@@ -15,12 +15,13 @@ import { useFrameSDK } from "~/hooks/useFrameSDK";
 import { baseUSDC } from "@daimo/contract";
 import { getAddress } from "viem";
 import BucketExplorer from "./BucketExplorer";
+import { PROJECT_TITLE } from "~/lib/constants";
 
 function ExampleCard() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Welcome to the vibes.engineering template</CardTitle>
+        <CardTitle>Welcome to {PROJECT_TITLE}</CardTitle>
         <CardDescription>
           This is an example card that you can customize or remove
         </CardDescription>
